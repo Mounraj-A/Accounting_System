@@ -1,0 +1,72 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-cards {
+    display: flex;
+    justify-content: space-around; /* Space cards evenly */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Limit maximum width */
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-card {
+    background-color: white; /* White background for cards */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners for cards */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Slight shadow for cards */
+    flex: 1; /* Allow cards to grow equally */
+    margin: 0 10px; /* Space between cards */
+    text-align: center; /* Center text inside cards */
+  }
+  
+  .dashboard-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-card p {
+    font-size: 24px;
+    font-weight: bold; /* Emphasize the amount */
+    color: #2c3e50; /* Darker color for contrast */
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #3498db; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition on hover */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .dashboard-cards {
+      flex-direction: column; /* Stack cards on smaller screens */
+      align-items: center; /* Center cards */
+    }
+  
+    .dashboard-card {
+      margin: 10px 0; /* Vertical spacing */
+      width: 90%; /* Full width on small screens */
+    }
+  }
+  

@@ -1,0 +1,78 @@
+.header {
+  background-color:lightgray;
+  color:black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  height: 85px; 
+  align-items: center;
+  font-size: 24px;
+  }
+  .header h1 {
+  text-align: center;
+  margin: 1000;
+  }
+  .ac{
+    text-align: center;
+  }
+  
+  /* Navigation styling */
+  .header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header nav ul li {
+    margin-right: 20px;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Logout button styling */
+  .logout-button {
+    background-color: #e74c3c; /* Red background for logout button */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .logout-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  /* Media query to make it more responsive */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .header nav ul {
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    .header nav ul li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .logout-button {
+      margin-top: 10px;
+    }
+    
+  }
+  

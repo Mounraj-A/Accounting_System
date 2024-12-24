@@ -1,0 +1,95 @@
+/* Center the sign-up container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height for vertical centering */
+    background-color: #f7f7f7;
+  }
+  
+  /* Styling the box around the form */
+  .signup-box {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Heading for Sign Up */
+  .signup-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: #e74c3c;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  /* Input group styling */
+  .input-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .input-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+  }
+  
+  /* Sign Up button styling */
+  .signup-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .signup-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Already have an account text and link */
+  .login-text {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .login-text a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-text a:hover {
+    text-decoration: underline;
+  }
+  

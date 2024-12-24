@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": "1af7",
+      "username": "D_hiyanesh",
+      "password": "12345"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "e465",
+      "type": "Income",
+      "amount": 33444,
+      "description": "erg"
+    },
+    {
+      "id": "e1f6",
+      "type": "Expense",
+      "amount": 324567,
+      "description": "fgds"
+    },
+    {
+      "id": "186e",
+      "type": "expense",
+      "amount": 3456,
+      "description": "hgfds"
+    },
+    {
+      "id": "36ed",
+      "type": "income",
+      "amount": 23456,
+      "description": "hgfre"
+    },
+    {
+      "id": "cf4b",
+      "type": "income",
+      "amount": 786543,
+      "description": "htgrfd"
+    }
+  ],
+  "summary": {
+    "totalIncome": 809999,
+    "totalExpense": 3456
+  }
+}
